@@ -24,7 +24,7 @@ export default function TemporaryDrawer() {
         {['Inbox', 'Starred', 'Send email', 'Drafts'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
-              <ListItemIcon sx={{ color: "#15fde9" }}>
+              <ListItemIcon sx={{ color: "#24efda" }}>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
               </ListItemIcon>
               <ListItemText primary={text} sx={{ color: "#361670" }} />
@@ -37,7 +37,7 @@ export default function TemporaryDrawer() {
         {['All mail', 'Trash', 'Spam'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
-              <ListItemIcon sx={{ color: "#15fde9" }}>
+              <ListItemIcon sx={{ color: "#24efda" }}>
                 {index % 2 === 0 ? <InboxIcon /> : <MailIcon />}
               </ListItemIcon>
               <ListItemText primary={text} sx={{ color: "#361670" }} />
@@ -52,7 +52,7 @@ export default function TemporaryDrawer() {
     <div>
       <Button 
         onClick={toggleDrawer(true)} 
-        sx={{ margin: '20px', border: '1px solid #15fde9', borderRadius: '50px', backgroundColor: '#15fde9', color: '#361670' }}
+        sx={{ margin: '20px', border: '1px solid #24efda', borderRadius: '50px', backgroundColor: '#24efda', color: '#361670' }}
       >
         Menu
       </Button>
